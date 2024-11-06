@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	for ch := 'z'; ch >= 'a'; ch-- {
-		fmt.Printf("%c ", ch)
+	for i:= 'z'; i >= 'a'; i-- {
+		fmt.Printf("%c ", i)
 	}
 }
